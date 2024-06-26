@@ -1,0 +1,30 @@
+header {
+  padding: 50px 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header .menu{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .menu :hover { 
+
+  color: #ef4d4d;
+    transition: .2s;
+}

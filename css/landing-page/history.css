@@ -1,0 +1,206 @@
+#history {
+  position: relative;
+  top: 350px;
+  overflow: hidden;
+}
+
+#history:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ #history .left-history{
+  display: inline-block;
+  width: 45%;
+  float: left;
+ }
+ 
+
+#history .left-history .image-container {
+    width: 70%;
+    position: relative;
+    top: 150px;
+}
+
+#history .left-history img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: relative;
+    left: 225px;
+    top: -140px;
+}
+
+
+#history .right-history {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+#history .right-history h1 .h-title {
+  display: inline-block;
+  position: relative;
+  left: 17px;
+  
+}
+
+
+#history .right-history p{
+  font-size: 1.8rem;
+  line-height: 4.2rem;
+  position: relative;
+  left: 31px;
+}
+
+#history .right-history .info-container{
+position:relative;
+left: 50px;
+}
+
+
+
+#history .right-history .info-container .letter {
+color: #f1424b;
+}
+
+
+
+ /*Laptops Devices*/
+ @media only screen and (max-width: 1600px) {
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  #history {
+      position: relative;
+      top: 150px;
+    }
+
+  #history .left-history .image-container {
+      width: 60%;
+  }
+
+
+
+ /*Tablets Devices*/
+ @media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  #history {
+      position: relative;
+      top: 370px;
+    }
+  
+    #history .left-history .image-container {
+      width: 120%;
+      position: relative;
+      top: 10px;
+      left: 70px;
+    }
+  
+    #history .left-history img {
+  height: auto;
+    max-width: 100%;
+      position: relative;
+      top: 0px;
+
+    }
+  
+    #history .right-history {
+      width: 100%;
+      text-align: center;
+      float: none;
+    }
+  
+  
+    #history .right-history .info-container {
+    width: 80%;
+    position: relative;
+      left: 190px;
+      padding: 50px;
+    text-align: center;
+
+    }
+  
+    #history .right-history p {
+      position: static;
+  
+      margin: 15px;
+      font-size: 1.5rem;
+    }
+  }
+ }
+
+
+
+
+
+
+ /*Mobile Devices*/
+ @media only screen  and (max-width: 768px) {
+
+  #history {
+
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+      position: relative;
+      top: 400px;
+    }
+
+    .history .left-history{
+        width: 100%;
+    }
+
+    #history .left-history .image-container {
+    
+   position: relative;
+    right: 38px;
+    width: 100%;
+    max-width: 100%;
+    }
+
+#history .left-history img {
+  
+  width: 100%;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+
+#history .right-history h1 .h-title {
+  position: static;
+
+}
+
+#history .right-history {
+width: 100%;
+max-width: 100%;
+text-align: center;
+float: none;
+}
+
+
+#history .right-history .info-container {
+width: 100%;
+max-width: 100%;
+position: static;
+}
+
+#history .right-history h1{
+  font-size: 4.3rem;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#history .right-history p {
+  position: static;
+  margin: 15px;
+  font-size: 1.5rem;} 
+ }
+
